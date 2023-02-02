@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #9037F0, #3AA2F0);
+    margin: 0;
+    padding: 49px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#carte{
+    background: linear-gradient(220deg, #9037F0, #3AA2F0);
+    width: 350px;
+    text-align: center;
+    box-shadow: 2px 2px 10px black;
+    border: solid white 1.5px;
+    border-radius: 20px;
+    margin : 0;
+    padding: 0 10px;
+}
+
+h1{
+    font-family: Permanent Marker, Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 2.5em;
+}
+
+span{
+    color: #008bff;
+}
+
+img{
+    border: 2px solid #008bff;
+    border-radius: 50%;
+    background-color: #2c2c2c;
+    box-shadow: 1px 1px 15px black;
+}
+
+h2{
+    font-family: Arial, sans-serif;
+    color:aliceblue;
+    text-shadow: 2px 2px 2px black;
+}
+
+#reasons{
+    text-align: left;
+    list-style: square;
+}
+
+#reasons li{
+    color: white;
+    padding-right: 25px;
+}
+
+#reseaux{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#reseaux li{
+    color: #008bff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#reseaux li a{
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    color: #008bff;
+    text-decoration: none;
+    background-color: rgba( 255, 255, 255, 0.7);
+    border: 2px solid #008bff;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px 10px;
+}
+
+#reseaux li a:visited{
+    color: #6339FA;
+    border: 2px solid #6339FA;
+}
+
+#reseaux li a:hover{
+    color: white;
+    background-color: #008bff;
+    border: 2px solid white;
+}
